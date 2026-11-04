@@ -65,4 +65,5 @@ dependencies {
     ksp(libs.hilt.compiler)
     ksp(libs.androidx.room.compiler)
     implementation(libs.hilt.navigation.compose)
+    implementation(libs.kotlinx.datetime)
 }

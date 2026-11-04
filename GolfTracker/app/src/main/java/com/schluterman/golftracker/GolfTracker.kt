@@ -1,8 +1,7 @@
 package com.schluterman.golftracker
 
 import android.app.Application
-// import com.schluterman.golftracker.di.AppContainer
+import dagger.hilt.android.HiltAndroidApp
 
-class GolfTracker : Application() {
-    // val container by lazy { AppContainer(this, fakeGps = Build.Config.DEBUG) }
-}
+@HiltAndroidApp
+class GolfTracker: Application()
